@@ -9,6 +9,7 @@ import Product from '../components/Product'
 import Navbar from '../components/Navbar'
 import LearnUseEffect from '../components/LearnUseEffect'
 import UseEffectApi from '../components/UseEffectApi'
+import FormHandling from '../components/FormHandling'
 
 const Home = () => {
     
@@ -82,7 +83,9 @@ const Home = () => {
       {/* <LearnUseEffect/> */}
 
 
-      <UseEffectApi/>
+      {/* <UseEffectApi/> */}
+
+      <FormHandling/>
 
     </div>
   )
